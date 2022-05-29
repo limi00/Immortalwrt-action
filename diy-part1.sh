@@ -32,7 +32,7 @@ sed -i '$a src-git small https://github.com/kenzok8/small' feeds.conf.default
 # git clone https://github.com/jerrykuku/luci-app-vssr.git  package/luci-app-vssr
 # git clone https://github.com/rufengsuixing/luci-app-usb3disable.git package/diy/luci-app-usb3disable
 # git clone https://github.com/sirpdboy/netspeedtest.git package/diy/luci-app-netspeedtest
-git clone https://github.com/sirpdboy/luci-app-autotimeset.git package/diy/luci-app-autotimeset
+# git clone https://github.com/sirpdboy/luci-app-autotimeset.git package/diy/luci-app-autotimeset
 # git clone https://github.com/zzsj0928/luci-app-pushbot package/diy/luci-app-pushbot
 # git clone https://github.com/linkease/istore.git package/diy/luci-app-store
 # git clone https://github.com/tty228/luci-app-serverchan.git package/mine/luci-app-serverchan
