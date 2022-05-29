@@ -39,4 +39,4 @@ git clone https://github.com/rufengsuixing/luci-app-adguardhome.git package/diy/
 # svn co https://github.com/cloudysky9/openwrt-packages/trunk/app-store-ui package/app-store-ui
 # svn co https://github.com/cloudysky9/openwrt-packages/trunk/luci-app-store package/luci-app-store
 
-rm -rf ./package/lean/luci-theme-argon && git clone -b master https://github.com/jerrykuku/luci-theme-argon.git package/lean/luci-theme-argon  #新的argon主题
+# rm -rf ./package/lean/luci-theme-argon && git clone -b master https://github.com/jerrykuku/luci-theme-argon.git package/lean/luci-theme-argon  #新的argon主题
