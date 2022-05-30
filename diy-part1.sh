@@ -12,7 +12,7 @@
 # sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
 # Add Adguardhome
-git clone --depth=1 https://github.com/yang229/luci-app-adguardhome
+git clone --depth=1 https://github.com/yang229/luci-app-adguardhome package/luci-app-adguardhome
 #git clone https://github.com/kongfl888/luci-app-adguardhome.git package/luci-app-adguardhome
 #rm -rf feeds/packages/net/adguardhome
 #svn co https://github.com/openwrt/packages/trunk/net/adguardhome feeds/packages/net/adguardhome
