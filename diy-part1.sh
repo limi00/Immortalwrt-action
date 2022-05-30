@@ -12,11 +12,11 @@
 # sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
 # Add Adguardhome
-git clone https://github.com/kongfl888/luci-app-adguardhome.git package/luci-app-adguardhome
-rm -rf feeds/packages/net/adguardhome
-svn co https://github.com/openwrt/packages/trunk/net/adguardhome feeds/packages/net/adguardhome
-sed -i '/\t)/a\\t$(STAGING_DIR_HOST)/bin/upx --lzma --best $(GO_PKG_BUILD_BIN_DIR)/AdGuardHome' ./feeds/packages/net/adguardhome/Makefile
-sed -i '/init/d' feeds/packages/net/adguardhome/Makefile
+# git clone https://github.com/kongfl888/luci-app-adguardhome.git package/luci-app-adguardhome
+# rm -rf feeds/packages/net/adguardhome
+# svn co https://github.com/openwrt/packages/trunk/net/adguardhome feeds/packages/net/adguardhome
+# sed -i '/\t)/a\\t$(STAGING_DIR_HOST)/bin/upx --lzma --best $(GO_PKG_BUILD_BIN_DIR)/AdGuardHome' ./feeds/packages/net/adguardhome/Makefile
+# sed -i '/init/d' feeds/packages/net/adguardhome/Makefile
 
 # Add a feed source
 # sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
@@ -28,7 +28,7 @@ sed -i '/init/d' feeds/packages/net/adguardhome/Makefile
 # echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >> "feeds.conf.default"
 
 # # Define My Package
-# git clone https://github.com/rufengsuixing/luci-app-adguardhome.git package/diy/luci-app-adguardhome
+git clone https://github.com/rufengsuixing/luci-app-adguardhome.git package/diy/luci-app-adguardhome
 # git clone https://github.com/xiaorouji/openwrt-passwall.git package/diy/luci-app-passwall
 # git clone https://github.com/jerrykuku/lua-maxminddb.git package/lua-maxminddb
 # git clone https://github.com/jerrykuku/luci-app-vssr.git  package/luci-app-vssr
