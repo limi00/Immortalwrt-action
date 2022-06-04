@@ -41,7 +41,3 @@ git clone https://github.com/Ausaci/luci-app-nat6-helper.git package/diy/luci-ap
 # git clone https://github.com/zzsj0928/luci-app-pushbot package/diy/luci-app-pushbot
 # git clone https://github.com/linkease/istore.git package/diy/luci-app-store
 # git clone https://github.com/tty228/luci-app-serverchan.git package/mine/luci-app-serverchan
-
-#appstore
-# svn co https://github.com/cloudysky9/openwrt-packages/trunk/app-store-ui package/app-store-ui
-# svn co https://github.com/cloudysky9/openwrt-packages/trunk/luci-app-store package/luci-app-store
