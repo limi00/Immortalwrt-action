@@ -11,13 +11,6 @@
 # Uncomment a feed source
 # sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
-# Add Adguardhome
-# git clone https://github.com/kongfl888/luci-app-adguardhome.git package/luci-app-adguardhome
-# rm -rf feeds/packages/net/adguardhome
-# svn co https://github.com/openwrt/packages/trunk/net/adguardhome feeds/packages/net/adguardhome
-# sed -i '/\t)/a\\t$(STAGING_DIR_HOST)/bin/upx --lzma --best $(GO_PKG_BUILD_BIN_DIR)/AdGuardHome' ./feeds/packages/net/adguardhome/Makefile
-# sed -i '/init/d' feeds/packages/net/adguardhome/Makefile
-
 # Add a feed source
 sed -i '$a src-git kenzo https://github.com/kenzok8/openwrt-packages' feeds.conf.default
 sed -i '$a src-git small https://github.com/kenzok8/small' feeds.conf.default
