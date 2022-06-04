@@ -23,7 +23,7 @@ sed -i '$a src-git small https://github.com/kenzok8/small' feeds.conf.default
 # echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >> "feeds.conf.default"
 
 # 替换更新adguardhome
-# rm -rf package/diy/luci-app-adguardhome && git clone https://github.com/rufengsuixing/luci-app-adguardhome.git package/diy/luci-app-adguardhome
+# rm -rf kenzok8/openwrt-packages/luci-app-adguardhome && git clone https://github.com/rufengsuixing/luci-app-adguardhome.git package/diy/luci-app-adguardhome
 
 
 # # Define My Package
