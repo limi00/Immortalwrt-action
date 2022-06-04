@@ -45,5 +45,3 @@ git clone https://github.com/Ausaci/luci-app-nat6-helper.git package/diy/luci-ap
 #appstore
 # svn co https://github.com/cloudysky9/openwrt-packages/trunk/app-store-ui package/app-store-ui
 # svn co https://github.com/cloudysky9/openwrt-packages/trunk/luci-app-store package/luci-app-store
-
-# rm -rf ./package/feeds/luci/luci-theme-argon && git clone -b 21.02 https://github.com/kenzok78/luci-theme-argonne package/lean/luci-theme-argon  #新的argon主题
