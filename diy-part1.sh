@@ -24,8 +24,8 @@ sed -i '$a src-git small https://github.com/kenzok8/small' feeds.conf.default
 
 # 替换更新adguardhome
 rm -rf feeds/kenzo/luci-app-adguardhome && git clone https://github.com/rufengsuixing/luci-app-adguardhome.git package/diy/luci-app-adguardhome
-# 替换更新adbyby-plus
-rm -rf feeds\luci\applications\luci-app-adbyby-plus && git clone https://github.com/schen39/luci-app-adbyby-plus.git package/diy/luci-app-adbyby-plus
+# 替换更新魔改版adbyby-plus
+# rm -rf feeds\luci\applications\luci-app-adbyby-plus && git clone https://github.com/schen39/luci-app-adbyby-plus.git package/diy/luci-app-adbyby-plus
 
 
 # # Define My Package
