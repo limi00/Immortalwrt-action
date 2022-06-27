@@ -14,13 +14,8 @@ sed -i 's/192.168.1.1/192.168.31.1/g' package/base-files/files/bin/config_genera
 # 修改主机名字，把OpenWrt-123修改你喜欢的就行（不能纯数字或者使用中文）
 sed -i 's/ImmortalWrt/XiaoMi_R3G/g' package/base-files/files/bin/config_generate
 
-# 增加 SSID 2.4G
-sed -i '/channel="11"/a\\t\tssid="Xiaomi_DC08"' package/kernel/mac80211/files/lib/wifi/mac80211.sh
-# 增加 SSID 5.0G
-sed -i '/channel="36"/a\\t\t\tssid="Xiaomi_DC08_5G"' package/kernel/mac80211/files/lib/wifi/mac80211.sh
-
 # 修改默认 SSID
-# sed -i 's/OpenWrt/Xiaomi_DC08/g' package/kernel/mac80211/files/lib/wifi/mac80211.sh
+sed -i 's/OpenWrt/Xiaomi_DC08/g' package/kernel/mac80211/files/lib/wifi/mac80211.sh
 # Modify default WiFi SSID
 # sed -i "s/set wireless.default_radio\${devidx}.ssid=OpenWrt/set wireless.default_radio\${devidx}.ssid='$Xiaomi_DC08'/g" package/kernel/mac80211/files/lib/wifi/mac80211.sh
 
