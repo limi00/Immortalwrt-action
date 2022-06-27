@@ -15,9 +15,9 @@ sed -i 's/192.168.1.1/192.168.31.1/g' package/base-files/files/bin/config_genera
 sed -i 's/ImmortalWrt/XiaoMi_R3G/g' package/base-files/files/bin/config_generate
 
 # 修改默认 SSID
-#sed -i 's/OpenWrt/${Xiaomi_DC08}/g' package/kernel/mac80211/files/lib/wifi/mac80211.sh
+sed -i 's/OpenWrt/Xiaomi_DC08/g' package/kernel/mac80211/files/lib/wifi/mac80211.sh
 # Modify default WiFi SSID
-sed -i "s/set wireless.default_radio\${devidx}.ssid=OpenWrt/set wireless.default_radio\${devidx}.ssid='$Xiaomi_DC08'/g" package/kernel/mac80211/files/lib/wifi/mac80211.sh
+#sed -i "s/set wireless.default_radio\${devidx}.ssid=OpenWrt/set wireless.default_radio\${devidx}.ssid='$Xiaomi_DC08'/g" package/kernel/mac80211/files/lib/wifi/mac80211.sh
 
 # 修改 argon 为默认主题,可根据你喜欢的修改成其他的（不选择那些会自动改变为默认主题的主题才有效果
 sed -i 's/luci-theme-bootstrap/luci-theme-argon/g' feeds/luci/collections/luci/Makefile
